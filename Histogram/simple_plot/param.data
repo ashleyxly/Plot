@@ -1,0 +1,34 @@
+line_length=100
+title=Pruning
+plot_type=bar
+xlabel=Pruning ratio
+xtype=normal
+xlabeldetail=()
+x_range=auto
+ylabel=Accuracy(%)
+ytype=normal
+ylabeldetail=()
+y_range=auto
+minor=False
+markersize=15
+linewidth=5
+title_size=40
+loc=5
+every=1
+markevery=1
+labels=['MNIST','CIFAR','Adult']
+xdata=[]
+ydata=[]
+skip_data=[]
+subplot=0
+subplot_loc='0 0 0 0'
+label_fontsize=35
+legend_loc=up
+label_starter=###LABEL_STARTER###
+data_starter=###DATA_STARTER###
+0	84.02	32.75	78.84
+0.1	95.67	74.64	83.06
+0.3	94.55	85.6	83.02
+0.5	93.77	83.52	83.41
+0.7	91.07	81.07	82.99
+0.9	84.18	72.64	83.7

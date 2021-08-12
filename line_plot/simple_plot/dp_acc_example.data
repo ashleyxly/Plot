@@ -1,0 +1,36 @@
+line_length=100
+title=MNIST
+plot_type=both
+xlabel=$\mathbf{\epsilon}$
+xtype=log
+xlabeldetail=()
+x_range=auto
+ylabel=Accuracy(%)
+ytype=normal
+ylabeldetail=()
+y_range=auto
+minor=False
+markersize=15
+linewidth=5
+title_size=40
+loc=3
+every=1
+markevery=1
+legend_loc=auto
+labels=['Unperturbed','MVG','IMGM','GDP', 'Low_rank']
+xdata=[]
+ydata=[]
+skip_data=[]
+subplot=0
+subplot_loc='0 0 0 0'
+label_fontsize=30
+label_starter=###LABEL_STARTER###
+data_starter=###DATA_STARTER###
+64	98.03	30.94	96.25	91.67	66.5
+32	98.03	13.66	96.16	91.33	30.27
+16	98.03	11.24	95.53	84.06	16.38
+8	98.03	12.16	94.73	75.94	14.47
+4	98.03	12.85	94.03	71.26	18.45
+2	98.03	12.23	80.87	69.51	15.4
+1	98.03	12.97	73.71	61.69	16.95
+0.5	98.03	13.51	66.03	62.45	19.66
